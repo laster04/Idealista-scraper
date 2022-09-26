@@ -20,7 +20,7 @@ The Idealista data scraper supports the following features:
 
 ## Input Parameters
 
-The input of this scraper should be JSON containing the list of pages on Realtor that should be visited. Required fields are:
+The input of this scraper should be JSON containing the list of pages on Idealista.com that should be visited. Required fields are:
 
 | Field                | Type    | Description                                                                                                                                                                                               |
 | -------------------- | ------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
