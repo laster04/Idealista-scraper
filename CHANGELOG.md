@@ -2,6 +2,12 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.12] - 2023-03-01
+
+### Major changes
+
+- **EndPages** settings.
+  - Now you can set max pages per listing url. This overrides maxItems settings.
 ## [0.0.9] - 2022-12-12
 
 ### Major changes
