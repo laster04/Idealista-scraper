@@ -20,17 +20,17 @@ The Idealista data scraper supports the following features:
 
 ## Input Parameters
 
-The input of this scraper should be JSON containing the list of pages on Idealista.com that should be visited. Required fields are:
+The input of this scraper should be JSON containing the list of pages on Realtor that should be visited. Required fields are:
 
-| Field                | Type    | Description                                                                                                                                                                                               |
-| -------------------- | ------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| startUrls            | Array   | (optional) List of Idealista URLs. You should only provide property detail or search URLs                                                                                                                 |
-| maxItems             | Integer | (optional) You can limit scraped products. This should be useful when you search through the big subcategories.                                                                                           |
-| endPage              | Integer | (optional) Final number of page that you want to scrape. Default is `Infinite`.                                                                                                                           |
-| search               | String  | (optional) Keyword that can be searched in Realtor search engine. When it is present, `mode` must be used as well.                                                                                        |
-| mode                 | String  | (optional) Mode of the actor. It gets the keyword from `search` parameter and initiate the search according to the mode. Can be `BUY`, `RENT` or `SOLD`. When present, `search` must be provided as well. |
-| extendOutputFunction | String  | (optional) Function that takes a JQuery handle ($) as argument and returns object with data                                                                                                               |
-| proxy                | Object  | Proxy configuration                                                                                                                                                                                       |
+| Field                | Type    | Description                                                                                                                                                                                                   |
+| -------------------- | ------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| district             | String  | (optional) Keyword that can be searched in Realtor search engine. When it is present, `mode` must be used as well.                                                                                            |
+| maxItems             | Integer | (optional) You can limit scraped products. This should be useful when you search through the big subcategories.                                                                                               |
+| endPage              | Integer | (optional) Final number of page that you want to scrape. Default is `Infinite`. This option overrides maxItems.                                                                                               |
+| startUrls            | Array   | (optional) List of Idealista URLs. You should only provide property detail or search URLs                                                                                                                     |
+
+[//]: # (| mode                 | String  | &#40;optional&#41; Mode of the actor. It gets the keyword from `district` parameter and initiate the search according to the mode. Can be `BUY`, `RENT` or `SOLD`. When present, `district` must be provided as well. |)
+| proxy                | Object  | Proxy configuration                                                                                                                                                                                           |
 
 This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy).
 
