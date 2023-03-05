@@ -2,6 +2,14 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.13] - 2023-03-01
+
+### Major changes
+
+- **MaxItems** settings.
+  - Now max items per listing page.
+- Add additionalLink and ubicationAddress
+
 ## [0.0.12] - 2023-03-01
 
 ### Major changes
