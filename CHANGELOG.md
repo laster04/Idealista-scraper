@@ -2,6 +2,11 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.15] - 2023-03-14
+
+### Major changes
+
+- add typology of property to output
 ## [0.0.13] - 2023-03-01
 
 ### Major changes
