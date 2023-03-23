@@ -2,11 +2,12 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
-## [0.0.17] - 2023-03-17
+## [0.0.17] - 2023-03-23
 
 ### Major changes
 
 - add title to output, fix pagination, fix ubicationAddress
+- fix enqueuing page urls
 ## [0.0.15] - 2023-03-14
 
 ### Major changes
