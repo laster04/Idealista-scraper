@@ -2,6 +2,12 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.18] - 2023-03-27
+
+### Major changes
+
+- fix offline properties ads
+
 ## [0.0.17] - 2023-03-23
 
 ### Major changes
