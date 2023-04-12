@@ -2,6 +2,12 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.19] - 2023-04-12
+
+### Major changes
+
+- fix m2 over 1k
+
 ## [0.0.18] - 2023-03-27
 
 ### Major changes
