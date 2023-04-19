@@ -2,6 +2,13 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.22] - 2023-04-19
+
+### Major changes
+
+- add energy labels to output
+- add other lang mutation
+
 ## [0.0.19] - 2023-04-12
 
 ### Major changes
