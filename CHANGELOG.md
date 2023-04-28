@@ -2,6 +2,12 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.24] - 2023-04-24
+
+### Major changes
+
+- add some params
+
 ## [0.0.23] - 2023-04-24
 
 ### Major changes
