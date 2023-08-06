@@ -2,6 +2,17 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.27] - 2023-08-06
+
+### Major changes
+
+- Add pagination to shape listing
+## [0.0.25] - 2023-05-09
+
+### Major changes
+
+- Readme.md
+
 ## [0.0.24] - 2023-04-24
 
 ### Major changes
