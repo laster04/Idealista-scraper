@@ -22,15 +22,16 @@ The Idealista data scraper supports the following features:
 
 The input of this scraper should be JSON containing the list of pages on Realtor that should be visited. Required fields are:
 
-| Field                | Type    | Description                                                                                                                                                                                                   |
-| -------------------- | ------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| district             | String  | (optional) Keyword that can be searched in Realtor search engine. When it is present, `mode` must be used as well.                                                                                            |
-| maxItems             | Integer | (optional) You can limit scraped products. This should be useful when you search through the big subcategories.                                                                                               |
-| endPage              | Integer | (optional) Final number of page that you want to scrape. Default is `Infinite`. This option overrides maxItems.                                                                                               |
-| startUrls            | Array   | (optional) List of Idealista URLs. You should only provide property detail or search URLs                                                                                                                     |
-| proxy                | Object  | Proxy configuration                                                                                                                                                                                           |
+| Field     | Type    | Description                                                                                                        |
+|-----------|---------|--------------------------------------------------------------------------------------------------------------------|
+| district  | String  | (optional) Keyword that can be searched in Realtor search engine. When it is present, `mode` must be used as well. |
+| country   | String  | (required) Select country where your search would be.                                                              |
+| maxItems  | Integer | (optional) You can limit scraped products. This should be useful when you search through the big subcategories.    |
+| endPage   | Integer | (optional) Final number of page that you want to scrape. Default is `Infinite`. This option overrides maxItems.    |
+| startUrls | Array   | (optional) List of Idealista URLs. You should only provide property detail or search URLs                          |
+| proxy     | Object  | Proxy configuration                                                                                                |
 
-This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy). Scraper works better with **RESIDENTIAL** proxies.
+This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy). Scraper works only with **RESIDENTIAL** proxies right now.
 
 ##### Tip
 
