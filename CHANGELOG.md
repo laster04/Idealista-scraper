@@ -2,7 +2,12 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
-## [0.0.27] - 2023-08-06
+## [0.0.33] - 2023-08-06
+
+### Major changes
+
+- Add other country PT
+- ## [0.0.30] - 2023-08-06
 
 ### Major changes
 
