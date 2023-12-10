@@ -2,6 +2,11 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.36] - 2023-12-10
+
+### Major changes
+
+- Add rooms to output
 ## [0.0.33] - 2023-08-06
 
 ### Major changes
