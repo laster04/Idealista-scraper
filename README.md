@@ -8,8 +8,6 @@ The Idealista data scraper supports the following features:
 
 -   Scrape property details - You can scrape attributes like property images, price, features, neighborhood, nearby schools and many more. You can find details below.
 
--   Scrape sold properties - You can scrape sold properties through a search list.
-
 -   Scrape for sale properties - If you are looking for a property which is for sale, you can directly target them.
 
 -   Scrape rental properties - Rental properties can be directly targeted.
@@ -17,6 +15,8 @@ The Idealista data scraper supports the following features:
 -   Scrape by keyword - You can use location-wise keywords to search specific search lists. Also you can directly point out rental, for sale or sold properties on this feature.
 
 -   Scrape properties by filter - Auto detection of URLs helps you to directly copy/paste the URLs into the scraper to apply any filtering you like.
+-   This scraper works only for Spain and Portugal, if you need to scrape **Italy** please use [this actor](https://apify.com/lukass/idealista-crawler-italy)
+-   Through the new policy of web the exact location of some properties is hidden. So the scraper now get center of map which is accessible from detail of property.
 
 ## Input Parameters
 
@@ -36,11 +36,6 @@ This solution requires the use of **Proxy servers**, either your own proxy serve
 ##### Tip
 
 When you want to have a filtering over a search URL; go to Idealista, create filters over the serach list and copy and paste the link as one of the **startUrl**.
-
-### Compute Unit Consumption
-
-The actor optimized to run blazing fast and scrape many as properties as possible. Therefore, it forefronts all property detail requests. If actor doesn't block very often it'll scrape 50 properties in 2 minutes with ~0.05-0.07 compute units.
-
 
 ## Bugs, fixes, updates and changelog
 If you have any feature requests you can create an issue from [here](https://github.com/laster04/Idealista-scraper/issues).
