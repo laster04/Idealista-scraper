@@ -2,6 +2,11 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.37] - 2023-08-06
+
+### Major changes
+
+- Fix latitude and longitude because of advertisers privacy so now latitude and longitude should be center of map what's shows from property detail
 ## [0.0.36] - 2023-12-10
 
 ### Major changes
