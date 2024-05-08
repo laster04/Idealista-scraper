@@ -2,6 +2,11 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.41] - 2023-08-06
+
+### Major changes
+
+- update actor to V3 crawlee
 ## [0.0.37] - 2023-08-06
 
 ### Major changes
