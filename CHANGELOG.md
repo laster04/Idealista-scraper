@@ -1,8 +1,21 @@
 
 # Changelog
 
+Fix url encode for some location inputs.
+## [0.0.66] - 2024-05-09
+
 All notable changes to this project will be documented in this file.
-## [0.0.41] - 2023-08-06
+## [0.0.48] - 2024-05-09
+
+### Major changes
+
+- SDK update
+## [0.0.42] - 2024-05-09
+
+### Major changes
+
+- add Italy
+## [0.0.41] - 2024-05-07
 
 ### Major changes
 
@@ -80,7 +93,7 @@ All notable changes to this project will be documented in this file.
 ### Major changes
 
 - **MaxItems** settings.
-  - Now max items per listing page.
+    - Now max items per listing page.
 - Add additionalLink and ubicationAddress
 
 ## [0.0.12] - 2023-03-01
@@ -88,7 +101,7 @@ All notable changes to this project will be documented in this file.
 ### Major changes
 
 - **EndPages** settings.
-  - Now you can set max pages per listing url. This overrides maxItems settings.
+    - Now you can set max pages per listing url. This overrides maxItems settings.
 ## [0.0.9] - 2022-12-12
 
 ### Major changes
